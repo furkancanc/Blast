@@ -6,4 +6,13 @@ public class Cube : Block
 {
     private CubeTypes cubeType;
 
+    protected override void Configure()
+    {
+        
+    }
+
+    protected override void LoadSprite(Sprite sprite)
+    {
+        
+    }
 }
