@@ -5,5 +5,9 @@ using UnityEngine;
 public class GridManager : MonoBehaviour
 {
     [SerializeField] private Transform spawnedBlocksParent;
+    [SerializeField] Grid currentGrid;
+
+
+
 
 }
