@@ -29,4 +29,9 @@ public class GridManager : MonoBehaviour
 
         border.transform.localScale = new Vector3((blockSize + gapSize) * gridSize.x, (blockSize + gapSize) * gridSize.y, 1);
     }
+
+    private void SetGridLayout()
+    {
+
+    }
 }
